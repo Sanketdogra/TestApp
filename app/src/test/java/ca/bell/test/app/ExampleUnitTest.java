@@ -16,6 +16,11 @@ public class ExampleUnitTest {
 
     }
 
+    @Test
+    public void addition_isNotCorrect() throws Exception {
+        assertEquals(5, 2 + 2);
+
+    }
     public void testAddValues() {
 
     }
